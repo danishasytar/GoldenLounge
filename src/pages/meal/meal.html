@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Meal
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only solid>
+        <ion-icon name="information-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page2">
+  <div id="meal-container1" class="row">
+    <div id="meal-container2" class="col">
+      <button id="meal-button3" ion-button color="positive" block on-click="goToRequestList()">
+        Request List
+      </button>
+    </div>
+    <div id="meal-container3" class="col">
+      <button id="meal-button2" ion-button color="positive" block on-click="goToMenuList()">
+        Perform Request
+      </button>
+    </div>
+  </div>
+</ion-content>
